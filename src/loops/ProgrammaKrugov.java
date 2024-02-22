@@ -3,7 +3,8 @@ package loops;
 import java.util.Scanner;
 
 public class ProgrammaKrugov {
-    private static final int MIN_LAPS_FOR_INPUT = 1;    // не надо непонятных чисел. Лучше переменная. Когда не вводим с клавиатуры
+    private static final int MIN_LAPS_FOR_INPUT = 1;    // не надо непонятных чисел.
+    // Лучше переменная. Когда не вводим с клавиатуры
     // объявление и инициализация. Лучше перенести в поле
 
     public static void main(String[] args) {
@@ -24,11 +25,11 @@ public class ProgrammaKrugov {
 
         System.out.println("Вы ввели " + maxLaps);
 
-        int currentLab = 0;
+        int currentLap = 0;
 
-        while (currentLab < maxLaps) {
-            currentLab++;
-            System.out.println("Я пробежал " + currentLab + " круг");
+        while (currentLap < maxLaps) {
+            currentLap++;
+            System.out.println("Я пробежал " + currentLap + " круг");
         }
 
         System.out.println("Финиш");
