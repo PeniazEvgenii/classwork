@@ -11,21 +11,34 @@ public class MainGeneric2 {
         System.out.println("Вводите числа для массива");
         System.out.println("введите exit для окончания");
        String answer = "";
-       int i =0;
+       int i = 0;
         do{
            answer = console.nextLine();
            if(!isExit(answer)) {
-               Long[] temp = new Long[arr.length + 1];
-               for (int i1 = 0; i1 < arr.length; i1++) {
-                   temp[i1] = arr[i1];
-               }
-               arr = temp;
+               arr = copyOf(arr, arr.length + 1);
                arr[i++] = Long.valueOf(answer);
            }
        } while(!isExit(answer));
 
     }
+
+
     public static boolean isExit(String answer){
        return Objects.equals(answer,"exit") ;
+    }
+
+    /**
+     * копирование массива с увелич размера
+     * @param arr массив для копирования
+     * @param newLength новая длина массива
+     * @return новыц массив заданного размера
+     */
+    public static Long[] copyOf(Long[] arr, int newLength){
+        Long[] temp = new Long[newLength];
+        int iterationCount = Math.min(arr.length, newLength);
+        for (int a = 0; a < iterationCount; a++) {
+            temp[a] = arr[a];
+        }
+        return temp;
     }
 }

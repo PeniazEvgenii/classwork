@@ -9,6 +9,7 @@ public class MainGeneric1 {
         System.out.println(sum(arr));
         System.out.println(sum(arr1));
         System.out.println(sum(arr2));
+
     }
     public static int sum(Number[] arr) {
         int sum = 0;
