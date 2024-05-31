@@ -1,0 +1,42 @@
+package INPUTOUTPUT.taskInpOut;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+import java.util.Scanner;
+
+public class Task3_INput {
+    public static void main(String[] args) throws IOException {
+        Path path = Path.of("Classwork", "resourses","test.txt");
+        List<String> list = Files.readAllLines(path);
+        //list.forEach(System.out::println);
+       // System.out.println(list);
+        list.stream()
+                .map(Task3_INput::findMaxDigit)
+               // .filter(a -> a > 0 && a <4)
+                .forEach(System.out::println);
+
+    }
+
+    private static Integer findMaxDigit(String line) {
+        System.out.println(line);
+        int result = 0;
+        int counter = 0;
+        for(int i = 0; i < line.length(); i++) {
+            if(Character.isDigit(line.charAt(i))) {
+                counter++;
+            } else {
+                if (counter > result) {
+                    result = counter;
+                }
+                counter = 0;
+            }
+        }
+        if(counter > result) {
+            result = counter;
+        }
+
+        return result;
+    }
+}
