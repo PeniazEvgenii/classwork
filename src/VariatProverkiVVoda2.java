@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class VariatProverkiVVoda {
+public class VariatProverkiVVoda2 {
     private static final int MIN_INPUT_NUMBER = 1;
 
     class One {

@@ -22,4 +22,12 @@ public class Square implements IFigura{
     public double getSquare() {
         return side * side;
     }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "color='" + color + '\'' +
+                ", side=" + side +
+                '}';
+    }
 }

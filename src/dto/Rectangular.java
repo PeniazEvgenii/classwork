@@ -28,4 +28,13 @@ public class Rectangular implements IFigura{
     public double getSquare() {
         return sideA * sideB;
     }
+
+    @Override
+    public String toString() {
+        return "Rectangular{" +
+                "color='" + color + '\'' +
+                ", sideA=" + sideA +
+                ", sideB=" + sideB +
+                '}';
+    }
 }

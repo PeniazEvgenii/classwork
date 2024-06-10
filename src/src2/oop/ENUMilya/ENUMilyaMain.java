@@ -1,4 +1,4 @@
-package oop.ENUMilya;
+package src2.oop.ENUMilya;
 
 import java.util.Scanner;
 

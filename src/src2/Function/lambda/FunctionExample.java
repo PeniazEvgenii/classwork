@@ -1,6 +1,5 @@
-package Function.lambda;
+package src2.Function.lambda;
 
-import oop.ENUMilya.Ecolor;
 
 import java.util.function.Function;
 

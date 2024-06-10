@@ -1,4 +1,4 @@
-package MANYTHREAD.FORkJoinPool.two;
+package src2.MANYTHREAD.FORkJoinPool.two;
 
 import java.util.Date;
 import java.util.concurrent.ForkJoinPool;
@@ -6,10 +6,10 @@ import java.util.concurrent.ForkJoinPool;
 public class BigArray {
     public static void main(String[] args) throws InterruptedException {
 
-        SetArrayIndex setArray = new SetArrayIndex();
+        MANYTHREAD.FORkJoinPool.two.SetArrayIndex setArray = new MANYTHREAD.FORkJoinPool.two.SetArrayIndex();
         int[] array = setArray.getInitArray(10000);
 
-        ArrayWithFJP arrayWithFJP = new ArrayWithFJP(array);
+        MANYTHREAD.FORkJoinPool.two.ArrayWithFJP arrayWithFJP = new MANYTHREAD.FORkJoinPool.two.ArrayWithFJP(array);
 
         System.out.println(new Date());
         ForkJoinPool forkJoinPool = new ForkJoinPool();

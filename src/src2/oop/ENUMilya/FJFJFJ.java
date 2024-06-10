@@ -1,4 +1,4 @@
-package oop.ENUMilya;
+package src2.oop.ENUMilya;
 
 public class FJFJFJ {
     public static final String RED = "RED";

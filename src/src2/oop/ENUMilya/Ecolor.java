@@ -1,4 +1,4 @@
-package oop.ENUMilya;
+package src2.oop.ENUMilya;
 
 public enum Ecolor {
     GREEN("Зеленый"),
@@ -48,5 +48,11 @@ public enum Ecolor {
             }
         }
         return UNKNOWN;
+    }
+}
+class Test {
+    public static void main(String[] args) {
+        Ecolor ecolor = Ecolor.BLACK;
+        System.out.println(ecolor.getRusName());
     }
 }
