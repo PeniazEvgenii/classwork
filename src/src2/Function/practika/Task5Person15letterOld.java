@@ -1,9 +1,10 @@
-package Function.practika;
+package src2.Function.practika;
 
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import src2.Function.practika.PersonStreaam;
 
 public class Task5Person15letterOld {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package PATTERNS.builder;
+package src2.PATTERNS.builder;
 
 import java.util.Locale;
 
@@ -13,7 +13,7 @@ public class MainBuilder {
 //                .setTitle("title")
 //                .build();
 
-        Mail mail = Mail.builder()
+        PATTERNS.builder.Mail mail = PATTERNS.builder.Mail.builder()
                 .setRecipient("")
                 .setBody("")
                 .setTitle("")

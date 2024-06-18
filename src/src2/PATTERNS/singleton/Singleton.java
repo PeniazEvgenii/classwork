@@ -1,4 +1,4 @@
-package PATTERNS.singleton;
+package src2.PATTERNS.singleton;
 
 public class Singleton {
     private static MailSenderService mailSenderService = new MailSenderService(

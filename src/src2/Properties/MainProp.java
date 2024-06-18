@@ -1,4 +1,4 @@
-package Properties;
+package src2.Properties;
 
 public class MainProp {
     private static final String KEY_BASE = "password";

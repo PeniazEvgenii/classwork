@@ -1,4 +1,4 @@
-package Properties;
+package src2.Properties;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,7 +21,7 @@ public final class PropUtil {
     }
 
     private static void loadProp() {
-        try (InputStream inputStream = PropUtil.class.getClassLoader().getResourceAsStream("application.properties")) {
+        try (InputStream inputStream = PropUtil.class.getClassLoader().getResourceAsStream("classwork/src2/src/resourses/application.properties")) {
             PROPERTIES.load(inputStream);
         } catch (IOException e) {
             throw new RuntimeException(e);

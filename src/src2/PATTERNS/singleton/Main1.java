@@ -1,4 +1,4 @@
-package PATTERNS.singleton;
+package src2.PATTERNS.singleton;
 
 public class Main1 {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Main1 {
 //                "6Pp2xaceETZ57gM9hkx8"
 //        );
 //
-        Mail mail = new Mail("kentuchi1991@mail.ru", "test", "2 варик");
+        Mail mail = new Mail("kentuchi1991@mail.ru", "test", "Как дела");
 //        senderService.send(mail);
        // MailSenderService senderService = MailSenderService.getInstance();
        MailSenderService senderService = Singleton.getMailSenderService();

@@ -1,4 +1,4 @@
-package PATTERNS.singleton;
+package src2.PATTERNS.singleton;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

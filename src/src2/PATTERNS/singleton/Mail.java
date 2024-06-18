@@ -1,4 +1,4 @@
-package PATTERNS.singleton;
+package src2.PATTERNS.singleton;
 
 public class Mail {
     private String recipient;

@@ -1,6 +1,6 @@
-package Function;
+package src2.Function;
 
-import Function.practika.PersonStreaam;
+import src2.Function.practika.PersonStreaam;
 import collection.passp.Passport;
 import oop.lesson3.Person;
 

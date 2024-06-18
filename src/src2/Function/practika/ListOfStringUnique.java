@@ -1,4 +1,4 @@
-package Function.practika;
+package src2.Function.practika;
 
 
 import java.util.Comparator;
