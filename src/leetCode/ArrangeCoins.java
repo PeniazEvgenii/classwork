@@ -14,7 +14,10 @@ public class ArrangeCoins {
                 i++;
             }
         }
+<<<<<<< HEAD
         //for test2
+=======
+>>>>>>> parent of 05f26b3 (HZ)
         return count;
     }
 }
