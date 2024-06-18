@@ -14,7 +14,7 @@ public class ArrangeCoins {
                 i++;
             }
         }
-        //for test
+        //for test2
         return count;
     }
 }
